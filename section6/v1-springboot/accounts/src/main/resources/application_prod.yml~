@@ -1,0 +1,16 @@
+spring:
+  config:
+    activate:
+      on-profile: "qa"
+
+build:
+  version: "2.0"
+
+accounts:
+  message: "Welcome to Dev accounts related Prod APIs"
+  contactDetails:
+    name: "prod - product owner"
+    email: "prod@gmail.com"
+  onCallSupport:
+    -(777) 555-5555
+    -(777) 555-5556

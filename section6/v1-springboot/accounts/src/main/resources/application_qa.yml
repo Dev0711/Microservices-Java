@@ -1,0 +1,16 @@
+spring:
+  config:
+    activate:
+      on-profile: "qa"
+
+build:
+  version: "2.0"
+
+accounts:
+  message: "Welcome to Dev accounts related QA APIs"
+  contactDetails:
+    name: "QA - QA Lead"
+    email: "qa@gmail.com"
+  onCallSupport:
+    -(666) 555-5555
+    -(666) 555-5556

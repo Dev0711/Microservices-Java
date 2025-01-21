@@ -17,3 +17,9 @@
 - create new dto class and add all configuration  that we added in Yaml file
 - import that file using @EnalbleConfigurationProperties(value= "dto clas")
 - create api path for it
+
+
+- create new application_prod.yml and application_qa.yml file
+- now add spring config activat on application.yml file
+- run the command and make sure version 2.0 shown in build-value api
+- for activate profile use profiles:active: "qa"
