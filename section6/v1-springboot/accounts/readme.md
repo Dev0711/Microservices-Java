@@ -1,0 +1,2 @@
+- add configuration details using @Value 
+- add api get info in controller file 
